@@ -1,0 +1,392 @@
+@charset "utf-8"
+ @import url(./index.css);
+ /*@import url(./reset.css);*/
+.nav-show{
+	width: 1060px;
+}
+.nav-show>.nav-ss{
+	width: 100%;
+	padding: 20px 0 0 0;
+}
+
+.nav-ss>.n-head{
+	width: 100%;
+	height: 100px;
+}
+
+.ns>.head{
+	width: 100%;
+	height: 50px;
+	position: relative;
+
+}
+.ns>.head h3{
+	font-size: 20px;
+	color: #1f1f1f;
+	display: inline-block;
+	background-size: 20px;
+	text-indent: 25px;
+	line-height: 50px;
+}
+
+
+
+.ns>.head>span{
+	display: inline-block;
+	text-indent: 15px;
+	/*position: absolute;
+	bottom: 10px;
+	left: 30px;*/
+}
+.ns>.head ul{
+	display: table;
+	/*height: 50px;*/
+	float: right;
+	/*line-height: 65px;*/
+	margin-right: -15px;
+	position: relative;
+	top: 20px;
+}
+
+.ns>.head ul li{
+	display: inline-block;  
+}
+
+.ns>.head ul li a{
+	color: #585858;
+	padding: 0 15px;
+}
+
+.ns>.body{
+	width: 100%;
+	height: 448px;
+	border-top: 2px solid #ff7247;
+}
+
+.ns>.body .show-board{
+	width: 260px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+
+
+.ns>.body .show-board>h3{
+	font-size: 38px;
+	color: #fff;
+	text-align: center;
+	margin-top: 25px;
+	letter-spacing: 2px;
+}
+
+.ns>.body .show-board>p{
+	color: #fff;
+	font-size: 18px;
+	text-indent: 30px;
+}
+.ns>.body .show-board>span{
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	text-indent: 30px;
+	letter-spacing: 1px;
+}
+
+.ns>.body .show-board>span strong{
+	font-size: 30px;
+}
+
+.ns>.body .show-board>button{
+	width: 122px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+	position: relative;
+	left: 30px;
+	top: 240px;
+}
+
+.ns>.body .board-top,.ns>.body .board-down{
+	width: 800px;
+	height: 226px;
+	float: left;
+}
+
+.ns>.body .board-down{
+	margin-top: -1px;
+}
+
+.ns>.body .board-top>.bd1{
+	width: 399px;
+	height: 100%;
+	float: left;
+
+}
+
+.n-fruit>.body .board-top>.bd1-picture{
+	background:rgb(252,238,240) url(../images/frius2.png) no-repeat 90% 50%;
+}
+
+.ns>.body .board-top>.bd1 h3{
+	font-size:22px;
+	padding: 25px 25px 5px;
+}
+
+
+
+.ns>.body .board-top>.bd1 p{
+	color: #828182;
+	text-indent: 26px;
+}
+
+.ns>.body .board-top>.bd1 span{
+	display: inline-block;
+	font-size: 16px;
+	color: #828182;
+	letter-spacing: 1px;
+	text-indent: 25px;
+}
+
+.ns>.body .board-top>.bd1 span strong{
+	color: #ff0008;
+	font-weight: bold;
+}
+
+.ns>.body .bd{
+	width: 199px;
+	height: 221px;
+	border:1px solid #d6d6d6;
+	float: left;
+}
+.ns>.body .bd:hover{
+	border-color: orange;
+	position: relative;
+}
+
+.ns>.body .board-top>.bd{
+	height: 224px;
+/*	margin-right: -1px;
+*/}
+.ns>.body .ml{
+	margin-left: -1px;
+}
+
+.ns>.body .bd figure{
+	vertical-align: middle;
+}
+.ns>.body .bd .img{
+	width: 100%;
+	height: 150px;
+	position: relative;
+}
+
+.ns>.body .bd img{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 15px;
+}
+.ns>.body .bd p{
+	text-indent: 20px;
+}
+.ns>.body .bd .p1{
+	line-height: 25px;
+}
+
+.ns>.body .bd .p2{
+	color: #b2b2b2;
+}
+
+.ns>.body .bd figcaption{
+	position: relative;
+}
+.ns>.body .bd figcaption span{
+	display: inline-block;
+}
+.ns>.body .bd figcaption .icon1{
+	margin-left: 22px;
+	font-size: 13px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #ff0000;
+}
+.ns>.body .bd figcaption .icon2{
+	color: #999;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	text-decoration: line-through;
+}
+
+.n-oil{
+	margin-bottom: 20px;
+}
+
+.n-fruit>.body{
+	border-top: 2px solid #ff7247;
+}
+
+
+.n-vegetable>.body{
+	border-top: 2px solid #6baba7;
+}
+.n-vegetable>.body .board-top>.bd1-picture{
+	background:rgb(232,246,232) url(../images/vegetable2.png) no-repeat 90% 90%;
+}
+
+.n-meat>.body{
+	border-top: 2px solid #f56eb2;
+}
+.n-meat>.body .board-top>.bd1-picture{
+	background:rgb(246,232,239) url(../images/meat2.png) no-repeat 90% 90%;
+}
+
+.n-seafood>.body{
+	border-top: 2px solid #3f9df2;
+}
+.n-seafood>.body .board-top>.bd1-picture{
+	background:rgb(223,237,250) url(../images/seafood2.png) no-repeat 90% 90%;
+}
+
+.n-freezefood>.body{
+	border-top: 2px solid #ffb32f;
+}
+.n-freezefood>.body .board-top>.bd1-picture{
+	background:rgb(244,234,215) url(../images/freezefood2.png) no-repeat 90% 90%;
+}
+
+.n-drink>.body{
+	border-top: 2px solid #ffd119;
+}
+.n-drink>.body .board-top>.bd1-picture{
+	background:rgb(255,253,220) url(../images/drink2.png) no-repeat 90% 90%;
+}
+
+.n-oil>.body{
+	border-top: 2px solid #a6ce00;
+}
+.n-oil>.body .board-top>.bd1-picture{
+	background:rgb(238,244,211) url(../images/oil2.png) no-repeat 90% 90%;
+}
+
+.n-fruit>.body .show-board{
+	background: #ffb29a url(../images/frius1.png) no-repeat 50% 70%;
+
+}
+.n-vegetable>.body .show-board{
+	background: #99ce96 url(../images/vegetable1.png) no-repeat 50% 70%;
+
+}
+.n-meat>.body .show-board{
+	background: #efb1d0 url(../images/meat1.png) no-repeat 50% 70%;
+
+}
+.n-seafood>.body .show-board{
+	background: #a0cbf2 url(../images/seafood1.png) no-repeat 50% 70%;
+
+}
+.n-freezefood>.body .show-board{
+	background: #edc379 url(../images/freezefood1.png) no-repeat 50% 70%;
+
+}
+.n-drink>.body .show-board{
+	background: #fff771 url(../images/drink1.png) no-repeat 100% 70%;
+
+}
+.n-oil>.body .show-board{
+	background: #d9ee83 url(../images/oil1.png) no-repeat 80% 70%;
+
+}
+
+
+.n-fruit>.body .show-board>span strong,.n-fruit>.body .show-board>button{
+	color: #eb565c;
+}
+
+.n-vegetable>.body .show-board>span strong,.n-vegetable>.body .show-board>button{
+	color: #7e5397;
+}
+
+.n-meat>.body .show-board>span strong,.n-meat>.body .show-board>button{
+	color: #eb3142;
+}
+
+.n-seafood>.body .show-board>span strong,.n-seafood>.body .show-board>button{
+	color: #0086ff;
+}
+
+.n-freezefood>.body .show-board>span strong{
+	color: #fff;
+}
+
+.n-drink>.body .show-board p,.n-drink>.body .show-board span,.n-drink>.body .show-board h3,.n-drink>.body .show-board>button{
+	color: #ff6474;
+}
+.n-drink>.body .show-board>span strong{
+	color: #bc021f;
+}
+
+.n-oil>.body .show-board p,.n-oil>.body .show-board span,.n-oil>.body .show-board h3{
+	color: #275c01;
+}
+.n-oil>.body .show-board>span strong,.n-oil>.body .show-board>button{
+	color: #9bb700;
+}
+
+.n-freezefood>.body .show-board>button{
+	color: #838383;
+}
+
+.n-fruit>.body .board-top>.bd1-picture h3{
+	color: #7f383a;
+}
+
+.n-vegetable>.body .board-top>.bd1-picture h3{
+	color: #859100;
+}
+
+.n-meat>.body .board-top>.bd1-picture h3{
+	color: #ef732b;
+}
+
+.n-seafood>.body .board-top>.bd1-picture h3{
+	color: #129eb1;
+}
+
+.n-freezefood>.body .board-top>.bd1-picture h3{
+	color: #f4692c;
+}
+
+.n-drink>.body .board-top>.bd1-picture h3{
+	color: #8f8f8f;
+}
+
+.n-oil>.body .board-top>.bd1-picture h3{
+	color: #e65f2b;
+}
+
+.n-fruit .head h3{
+	background: url(../images/little-nav1.png) no-repeat 0 50%;
+}
+.n-vegetable .head h3{
+	background: url(../images/little-nav2.png) no-repeat 0 50%;
+}
+.n-meat .head h3{
+	background: url(../images/little-nav03.png) no-repeat 0 50%;
+}
+.n-seafood .head h3{
+	background: url(../images/little-nav04.png) no-repeat 0 50%;
+}
+.n-freezefood .head h3{
+	background: url(../images/little-nav05.png) no-repeat 0 50%;
+}
+.n-drink .head h3{
+	background: url(../images/little-nav06.png) no-repeat 0 50%;
+}
+.n-oil .head h3{
+	background: url(../images/little-nav07.png) no-repeat 0 50%;
+}

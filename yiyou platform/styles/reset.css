@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+body{
+    /*字体家族 不建议使用中文名称  \\5b8b\4f53 代表的宋体 ，也可以写成simsun*/
+	font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    background-color: #fff;
+    color: #666;
+}
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	font:inherit;
+}
+
+fieldset,img,input,button{
+	border: none;
+	outline-style: none;
+	/*去掉选中状态*/
+}
+button{
+	cursor: pointer;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+
+select,input,img{
+	vertical-align: middle;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+a{
+	text-decoration: none;
+}
+
+#header{
+	width: 100%;
+	border-bottom: 2px solid #318e00;
+}
+#header-top{
+	width: 100%;
+	height: 30px;
+	background-color: #f1f1f1;
+	clear: both;
+
+}
+#header-top #htop{
+    width: 1060px;
+    height: 30px;
+    margin: 0 auto;
+
+
+}
+#header-top #htop-l{
+	float: left;
+}
+
+#header-top #htop-l .address{
+    font-size: 12px;
+    color: #828282;
+    line-height: 30px;
+    width: 200px;
+    background: url(../images/downarrow.png) no-repeat;
+	/*background-color: green;*/
+	background-position: 100% 45%;
+	background-size: 12px;
+}
+
+.address .a-l{
+    margin-right: 25px;
+}
+.address .choose{
+	color: #318e00;
+	
+}
+#header-top #htop-r{
+	float: right;
+	line-height: 30px;
+}
+
+#header-top #htop-r ul{
+	display: table;
+}
+#header-top #htop-r ul li{
+	display: inline-block;
+
+}
+
+#header-top #htop-r ul li a{
+	color: #828282;
+	font-size: 12px;
+	padding: 9px 14px;
+	/*background-color: silver;*/
+}
+
+#htop-r .down-arrow{
+	background: url(../images/downarrow.png) no-repeat;
+	background-size: 12px;
+	background-position: 100% 45%;
+	margin-right: 4px;
+}
+
+#htop-r .shop-car{
+	background: url(../images/shoppingcar_07.png) no-repeat;
+	background-size: 14px;
+	background-position: -2px 50%;
+	margin-left: 12px;
+	/*padding: auto 15px;*/
+
+}
+
+#htop-r .nav{
+	background: url(../images/site-navigation_03.png) no-repeat -1.5px 50%,url(../images/downarrow.png) no-repeat 100% 45%;
+	background-size: 14px;
+	/*background-position: -1.5px 50%;*/
+	margin-left: 12px;
+}
+
+
+
+
+
+
+#top-footer{
+	width: 100%;
+    height: 100px;
+	background-color: #e5e5e5;
+}
+#top-footer .tf-top{
+    width: 1060px;
+    margin: 0 auto;
+}
+
+#top-footer .tf-top ul{
+	display: table;
+	margin-left: -23px;
+}
+#top-footer .tf-top ul li{
+	display: inline-block;
+	/*background-color: green;*/
+	width: 212px;
+	height: 60px;
+	line-height: 60px;
+	padding: 20px 0;
+
+
+}
+
+#top-footer .tf-top ul li a{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 18px;
+	color: #757575;
+	border-right: 1px dashed #757575;
+	text-indent: 60px;
+	/*border: 1px solid red;*/
+}
+
+.tf-top .f1{
+	background: url(../images/f1.png) no-repeat 15% 5%;
+	background-size: 60px;
+}
+
+.tf-top .f2{
+	background: url(../images/f2.png) no-repeat 15% 5%;
+	background-size: 60px;
+}
+
+.tf-top .f3{
+	background: url(../images/f3.png) no-repeat 15% 5%;
+	background-size: 60px;
+}
+
+.tf-top .f4{
+	background: url(../images/f4.png) no-repeat 15% 5%;
+	background-size: 60px;
+}
+
+.tf-top .f5{
+	background: url(../images/f5.png) no-repeat 15% 5%;
+	background-size: 60px;
+	border-right-style: none;
+	text-indent: 100px;
+
+}
+
+#center-footer{
+	width: 1060px;
+	height: 175px;
+	padding: 20px 0 0 0;
+	border-bottom: 1px solid #d3d3d3;
+	background-color: #fff;
+}
+
+#center-footer .cen{
+	width: 151px;
+	height: 100%;
+	float: left;
+	/*border: 1px solid red;*/
+
+}
+#center-footer .cen h3{
+    color: #5b5a5a;
+    font-weight: bold;
+}
+
+#center-footer .cen li{
+	height: 24px;
+	line-height: 24px;
+}
+#center-footer .cen li a{
+	font-size: 12px;
+	color: #808080;
+}
+
+#center-footer .f7 .two-code{
+	display: block;
+	width: 151px;
+	height: 90px;
+	background: url(../images/two-code.png) no-repeat;
+}
+
+
+
+
+#bottom-footer{
+	width: 1060px;
+	height: 36px;
+	color: #808080;
+	padding: 20px 0;
+	background-color: #fff;
+}
+
+#bottom-footer ul{
+	display: table;
+	margin-bottom: 5px;
+}
+
+#bottom-footer ul li{
+	height: 12px;
+	display: inline-block;
+	/*background-color: red;*/
+	line-height: 12px;
+	border-right: 1px dashed #808080;
+}
+
+#bottom-footer ul li a{
+	font-size: 12px;
+	color: #808080;
+	padding: 0 15px;
+}
+
+#bottom-footer .p{
+	text-align: center;
+}
